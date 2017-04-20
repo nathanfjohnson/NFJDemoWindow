@@ -1,7 +1,3 @@
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
 Swift 3/3.1, iOS 8+
 
@@ -33,7 +29,6 @@ whenever you want to turn demo mode on/off just grab it and set its activated pr
 guard let demoWindow = view.window as? NFJDemoWindow else { return }
 demoWindow.activated = true
 ```
-
 
 ## Author
 
