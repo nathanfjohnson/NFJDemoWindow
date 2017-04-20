@@ -1,0 +1,6 @@
+framework module NFJDemoWindow {
+  umbrella header "NFJDemoWindow-umbrella.h"
+
+  export *
+  module * { export * }
+}
