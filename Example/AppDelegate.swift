@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  NFJDemoWindow
+//  Example
 //
-//  Created by Nathan F Johnson on 04/19/2017.
-//  Copyright (c) 2017 Nathan F Johnson. All rights reserved.
+//  Created by Nathan.F.Johnson on 4/20/17.
+//  Copyright © 2017 NathanFJohnson. All rights reserved.
 //
 
 import UIKit
@@ -15,3 +15,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var window: UIWindow? = NFJDemoWindow()
 
 }
+

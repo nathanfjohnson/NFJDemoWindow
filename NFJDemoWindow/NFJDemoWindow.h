@@ -13,7 +13,3 @@ FOUNDATION_EXPORT double NFJDemoWindowVersionNumber;
 
 //! Project version string for NFJDemoWindow.
 FOUNDATION_EXPORT const unsigned char NFJDemoWindowVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <NFJDemoWindow/PublicHeader.h>
-
-

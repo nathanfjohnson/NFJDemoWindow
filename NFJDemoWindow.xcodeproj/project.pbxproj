@@ -7,11 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C509E27C1EA95EBC00A7BD94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C509E27B1EA95EBC00A7BD94 /* AppDelegate.swift */; };
+		C509E27E1EA95EBC00A7BD94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C509E27D1EA95EBC00A7BD94 /* ViewController.swift */; };
+		C509E2811EA95EBC00A7BD94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C509E27F1EA95EBC00A7BD94 /* Main.storyboard */; };
+		C509E2831EA95EBC00A7BD94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C509E2821EA95EBC00A7BD94 /* Assets.xcassets */; };
+		C509E2861EA95EBC00A7BD94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C509E2841EA95EBC00A7BD94 /* LaunchScreen.storyboard */; };
 		C54F3BBF1EA8FD6600186826 /* NFJDemoWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = C54F3BBD1EA8FD6600186826 /* NFJDemoWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C54F3BC71EA8FDCE00186826 /* NFJDemoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F3BC61EA8FDCE00186826 /* NFJDemoWindow.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C5100D8A1EA96280003B8F8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C54F3BB11EA8FD6600186826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C54F3BB91EA8FD6600186826;
+			remoteInfo = NFJDemoWindow;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		C509E2791EA95EBC00A7BD94 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C509E27B1EA95EBC00A7BD94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C509E27D1EA95EBC00A7BD94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C509E2801EA95EBC00A7BD94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C509E2821EA95EBC00A7BD94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C509E2851EA95EBC00A7BD94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C509E2871EA95EBC00A7BD94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C54F3BBA1EA8FD6600186826 /* NFJDemoWindow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFJDemoWindow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54F3BBD1EA8FD6600186826 /* NFJDemoWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFJDemoWindow.h; sourceTree = "<group>"; };
 		C54F3BBE1EA8FD6600186826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -19,6 +41,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C509E2761EA95EBC00A7BD94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C54F3BB61EA8FD6600186826 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -29,10 +58,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C509E27A1EA95EBC00A7BD94 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				C509E27B1EA95EBC00A7BD94 /* AppDelegate.swift */,
+				C509E27D1EA95EBC00A7BD94 /* ViewController.swift */,
+				C509E27F1EA95EBC00A7BD94 /* Main.storyboard */,
+				C509E2821EA95EBC00A7BD94 /* Assets.xcassets */,
+				C509E2841EA95EBC00A7BD94 /* LaunchScreen.storyboard */,
+				C509E2871EA95EBC00A7BD94 /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		C54F3BB01EA8FD6600186826 = {
 			isa = PBXGroup;
 			children = (
 				C54F3BBC1EA8FD6600186826 /* NFJDemoWindow */,
+				C509E27A1EA95EBC00A7BD94 /* Example */,
 				C54F3BBB1EA8FD6600186826 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				C54F3BBA1EA8FD6600186826 /* NFJDemoWindow.framework */,
+				C509E2791EA95EBC00A7BD94 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +121,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		C509E2781EA95EBC00A7BD94 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C509E28A1EA95EBC00A7BD94 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				C509E2751EA95EBC00A7BD94 /* Sources */,
+				C509E2761EA95EBC00A7BD94 /* Frameworks */,
+				C509E2771EA95EBC00A7BD94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5100D8B1EA96280003B8F8A /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = C509E2791EA95EBC00A7BD94 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		C54F3BB91EA8FD6600186826 /* NFJDemoWindow */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C54F3BC21EA8FD6600186826 /* Build configuration list for PBXNativeTarget "NFJDemoWindow" */;
@@ -101,9 +163,14 @@
 		C54F3BB11EA8FD6600186826 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = NathanFJohnson;
 				TargetAttributes = {
+					C509E2781EA95EBC00A7BD94 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
 					C54F3BB91EA8FD6600186826 = {
 						CreatedOnToolsVersion = 8.3.1;
 						ProvisioningStyle = Automatic;
@@ -116,6 +183,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = C54F3BB01EA8FD6600186826;
 			productRefGroup = C54F3BBB1EA8FD6600186826 /* Products */;
@@ -123,11 +191,22 @@
 			projectRoot = "";
 			targets = (
 				C54F3BB91EA8FD6600186826 /* NFJDemoWindow */,
+				C509E2781EA95EBC00A7BD94 /* Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C509E2771EA95EBC00A7BD94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C509E2861EA95EBC00A7BD94 /* LaunchScreen.storyboard in Resources */,
+				C509E2831EA95EBC00A7BD94 /* Assets.xcassets in Resources */,
+				C509E2811EA95EBC00A7BD94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C54F3BB81EA8FD6600186826 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,6 +217,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C509E2751EA95EBC00A7BD94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C509E27E1EA95EBC00A7BD94 /* ViewController.swift in Sources */,
+				C509E27C1EA95EBC00A7BD94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C54F3BB51EA8FD6600186826 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,7 +236,60 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C5100D8B1EA96280003B8F8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C54F3BB91EA8FD6600186826 /* NFJDemoWindow */;
+			targetProxy = C5100D8A1EA96280003B8F8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C509E27F1EA95EBC00A7BD94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C509E2801EA95EBC00A7BD94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C509E2841EA95EBC00A7BD94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C509E2851EA95EBC00A7BD94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		C509E2881EA95EBC00A7BD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NathanFJohnson.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C509E2891EA95EBC00A7BD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NathanFJohnson.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		C54F3BC01EA8FD6600186826 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -289,6 +430,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C509E28A1EA95EBC00A7BD94 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C509E2881EA95EBC00A7BD94 /* Debug */,
+				C509E2891EA95EBC00A7BD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C54F3BB41EA8FD6600186826 /* Build configuration list for PBXProject "NFJDemoWindow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
